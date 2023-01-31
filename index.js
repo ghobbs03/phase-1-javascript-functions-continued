@@ -9,7 +9,7 @@ function mondayWork(activity = 'go to the office') {
 }
 
 function wrapAdjective(char = '*') {
-    return function (adjective = 'special', ) {
+    return function (adjective = 'special') {
         return 'You are ' + char + adjective + char + '!';
     };
 }
